@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+body{
+    background-color: #222;
+}
+
+.card{
+    width: 90%;
+    max-width: 460px;
+    background: linear-gradient(135deg , #00feba , #5b5b5a);
+    color: white;
+    margin: 100px auto 0;
+    text-align: center;
+    padding: 40px 50px;
+    border-radius: 15px;
+}
+
+.search{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search input{
+    border: 0;
+    outline: 0;
+    background: white;
+    border-radius: 10px;
+    height: 48px;
+    margin-right: 16px;
+    padding: 0 16px;
+    flex: 0.9;
+}
+
+.search button{
+    border: 0;
+    outline: 0;
+    background: white;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+.search button img{
+    width: 15px;
+
+}
+
+.Weather-icon{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.whether h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.whether h2{
+    font-size: 50px;
+    margin-top: -5px;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity , .wind{
+    font-size: 25px;
+    margin-top: -7px;
+}
+
+.whether{
+    display: none;
+}
+
+.error{
+    text-align: left;
+    margin: 4px 0 2px 1px;
+    padding: 2px;
+    display: none;
+}
